@@ -8,8 +8,7 @@
             if(!details.id){
                 throw musicAll.ctErr(0,details,'id');
             }
-            return 
-            {music:'https://music.163.com/song/media/outer/url?id='+details.id+'.mp3'}
+            return {music:'https://music.163.com/song/media/outer/url?id='+details.id+'.mp3'}
         }
     }
 })();
